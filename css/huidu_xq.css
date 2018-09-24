@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 7.5rem;
+    height: auto;
+    background: #fff;
+}
+header{
+    width: 100%;
+    height:0.5rem;
+}
+.head{
+    width: 100%;
+    height: 6.5rem;
+    background: red;
+    background: url("../img/review.jpg") no-repeat center;
+    background-size: 13.34rem 6.5rem;
+    position: relative;
+}
+.head .headU{
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+.head .headU .headUL{
+    width: 0.6rem;
+    height: 100%;
+    background: url("../img/return.png") no-repeat center;
+    background-size: 0.4rem;
+    float: left;
+}
+.head .headU .headUR{
+    width: 0.6rem;
+    height: 100%;
+    background: url("../img/fenxiang1.png") no-repeat center;
+    background-size: 0.4rem;
+    float: right;
+}
+.head h2{
+    width: 100%;
+    height: 0.8rem;
+    padding-left: 0.3rem;
+    box-sizing: border-box;
+    font-size: 0.46rem;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    bottom: 1.2rem;
+    left: 0;
+}
+.head p{
+    width: 100%;
+    height: 0.5rem;
+    padding-left: 0.3rem;
+    box-sizing: border-box;
+    font-size: 0.26rem;
+    color: #fff;
+    position: absolute;
+    bottom: 0.8rem;
+    left: 0;
+}
+section{
+    width: 100%;
+    height: auto;
+    background: #f7f7f7;
+}
+section .main{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    margin-bottom: 0.15rem;
+}
+section .main h2{
+    width: 100%;
+    height: auto;
+    font-size: 0.36rem;
+    color: #000;
+    line-height: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+.main .don1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.15rem;
+}
+.don1 .pic{
+    width: 100%;
+    height: 3rem;
+    background: url("../img/don1.jpg") no-repeat center;
+    background-size: 13.34rem 3rem;
+    position: relative;
+}
+.don1 .word{
+    width: 100%;
+    height:auto;
+    box-sizing: border-box;
+    background: #fff;
+    overflow: hidden;
+}
+.don1 .word>p{
+    width: 100%;
+    height: auto;
+    font-size: 0.3rem;
+    color: #2a2a2a;
+    line-height: 0.5rem;
+    float: left;
+    margin-top: 0.1rem;
+}
+.don1 .word>span{
+    width: 100%;
+    height: auto;
+    font-size: 0.26rem;
+    color: #7e7e7e;
+    line-height: 0.4rem;
+    float: left;
+    margin-bottom: 0.2rem;
+}
+.don1 .word .Title_x{
+    width: 100%;
+    height: 0.4rem;
+    margin-top:0.1rem;
+    font-size: 0.23rem;
+    color: #7e7e7e;
+    float: left;
+}
+.don1 .word .Title_x span,.don1 .word .Title_x div{
+    float: left;
+}
+.don1 .word .Title_x p{
+    float: right;
+    display: inline;
+}
+.don1 .word .Title_x .message{
+    width: 0.3rem;
+    height: 0.35rem;
+    background: url("../img/message.png") no-repeat center;
+    background-size: 0.25rem;
+    margin-left: 0.1rem;
+}
+.don1 .word .Title_x .heart{
+    width: 0.3rem;
+    height: 0.35rem;
+    background: url("../img/heart.png") no-repeat center;
+    background-size: 0.3rem;
+    margin-left: 0.1rem;
+}

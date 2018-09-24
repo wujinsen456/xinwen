@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+html,body{
+    width: 7.5rem;
+    height: auto;
+    background: #f7f7f7;
+}
+header{
+    width: 100%;
+    height:0.5rem;
+}
+.don{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.15rem;
+}
+.don .pic{
+    width: 100%;
+    height: 6.5rem;
+    background: url("../img/don.jpg") no-repeat center;
+    background-size: auto 6.5rem;
+    position: relative;
+}
+.don .pic .join{
+    width: 1.2rem;
+    height: 0.9rem;
+    background: #37302d;
+    position: absolute;
+    top: 0.3rem;
+    right:0.3rem;
+}
+.don .pic .join p{
+    width: 100%;
+    height: 0.45rem;
+    font-size: 0.4rem;
+    color: #ffc900;
+    text-align: center;
+    line-height: 0.55rem;
+    float: left;
+    font-weight: bold;
+    font-family: "仿宋";
+}
+.don .pic .join span{
+    width: 100%;
+    height: 0.35rem;
+    color: #fff;
+    font-size: 0.23rem;
+    float: left;
+    line-height: 0.35rem;
+    text-align: center;
+}
+.don .pic .lab{
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.4rem;
+    background: url("../img/nicai.png") no-repeat center;
+    background-size: contain;
+}
+.don .word{
+    width: 100%;
+    height:auto;
+    padding: 0.3rem 0.4rem;
+    box-sizing: border-box;
+    background: #fff;
+    overflow: hidden;
+}
+.don .word p{
+    width: 100%;
+    height: auto;
+    font-size: 0.3rem;
+    color: #2a2a2a;
+    line-height: 0.5rem;
+    float: left;
+}
+.don .word span{
+    width: 100%;
+    height: auto;
+    font-size: 0.26rem;
+    color: #7e7e7e;
+    line-height: 0.4rem;
+    float: left;
+}
+main{
+    width: 100%;
+    height: auto;
+    background: #ffff;
+    padding: 0.5rem 0.3rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .mainC{
+    width: 3.3rem;
+    height: 3.3rem;
+    border: 0.01rem dashed #7e7e7e;
+    background: #fff;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    margin-bottom: 0.3rem;
+}
+main .mainC .user{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: url("../img/user.png") no-repeat center;
+    background-size: 0.5rem 0.5rem;
+}
+main .mainC p{
+    width: 100%;
+    height: 0.4rem;
+    text-align: center;
+    font-size: 0.3rem;
+    color: #7e7e7e;
+    margin-top: 0.7rem;
+}
+main .mainC p img{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+main .mainCon{
+    width: 3.3rem;
+    height: 3.3rem;
+    background: #f9cb08;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    margin-bottom: 0.3rem;
+}
+main .mainCon .user{
+    width: 100%;
+    height: 0.5rem;
+}
+main .mainCon .user .userT{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+}
+main .mainCon .user .userT img{
+    width: 0.5rem;
+    height: 0.5rem;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+main .mainCon .user .userN{
+    width: auto;
+    height: 0.5rem;
+    float: left;
+    padding-left: 0.3rem;
+    box-sizing: border-box;
+    font-size: 0.24rem;
+    color: #fff;
+    line-height: 0.5rem;
+}
+main .mainCon p{
+    width: 100%;
+    height: 2rem;
+    font-size: 0.27rem;
+    color: #fff;
+    text-align: center;
+    line-height: 2rem;
+}
+main .mainCon .userD{
+    width: 100%;
+    height: 0.5rem;
+    font-size: 0.26rem;
+    color: #fff;
+}
+main .mainCon .userD .zan{
+    width: 0.3rem;
+    height: 0.3rem;
+    background: url("../img/zan1.png") no-repeat center;
+    background-size: 0.3rem 0.3rem;
+    float: left;
+    margin-right: 0.1rem;
+}
+main .mainCon .userD .share{
+    width: 0.3rem;
+    height: 0.3rem;
+    background: url("../img/fenxiang1.png") no-repeat center;
+    background-size: 0.3rem 0.3rem;
+    float: right;
+}
+footer{
+    width: 100%;
+    height: 1.1rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.headU{
+    width: 100%;
+    height: 1.1rem;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+.headU .headUL{
+    width: 0.6rem;
+    height: 100%;
+    background: url("../img/return1.png") no-repeat center;
+    background-size: 0.4rem;
+    float: left;
+}
+.headU .headUC{
+    width: 0.6rem;
+    height: 1.2rem;
+    background: url("../img/pinlun.png") no-repeat center;
+    background-size: 0.4rem;
+    float: left;
+    margin-left: 5rem;
+}
+.headU .headUR{
+    width: 0.6rem;
+    height: 100%;
+    background: url("../img/fenxiang2.png") no-repeat center;
+    background-size: 0.4rem;
+    float: right;
+}

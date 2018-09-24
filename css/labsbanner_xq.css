@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+html,body{
+    width: 7.5rem;
+    height: auto;
+    background: #fff;
+}
+header{
+    width: 100%;
+    height:0.5rem;
+}
+.don{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.15rem;
+}
+.don .pic{
+    width: 100%;
+    height: 4.2rem;
+    background: url("../img/don.jpg") no-repeat center;
+    background-size: auto 4.2rem;
+    position: relative;
+}
+.don .pic .join{
+    width: 1.2rem;
+    height: 0.9rem;
+    background: #37302d;
+    position: absolute;
+    top: 0.3rem;
+    right:0.3rem;
+}
+.don .pic .join p{
+    width: 100%;
+    height: 0.45rem;
+    font-size: 0.4rem;
+    color: #ffc900;
+    text-align: center;
+    line-height: 0.55rem;
+    float: left;
+    font-weight: bold;
+    font-family: "仿宋";
+}
+.don .pic .join span{
+    width: 100%;
+    height: 0.35rem;
+    color: #fff;
+    font-size: 0.23rem;
+    float: left;
+    line-height: 0.35rem;
+    text-align: center;
+}
+.don .pic .lab{
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.4rem;
+    background: url("../img/nicai.png") no-repeat center;
+    background-size: contain;
+}
+.don .word{
+    width: 100%;
+    height:auto;
+    padding: 0.3rem 0.4rem;
+    box-sizing: border-box;
+    background: #fff;
+    overflow: hidden;
+}
+.don .word p{
+    width: 100%;
+    height: auto;
+    font-size: 0.3rem;
+    color: #2a2a2a;
+    line-height: 0.5rem;
+    float: left;
+}
+.don .word span{
+    width: 100%;
+    height: auto;
+    font-size: 0.26rem;
+    color: #7e7e7e;
+    line-height: 0.4rem;
+    float: left;
+}
+.don .pic1{
+    background: url("../img/car.jpeg") no-repeat center;
+    width: 100%;
+    height: 4.2rem;
+    background-size: auto 4.2rem;
+    position: relative;
+}
+.don .pic .lab1{
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.4rem;
+    background: url("../img/jiaodian.png") no-repeat center;
+    background-size: contain;
+}
+.don .pic2{
+    background: url("../img/toupiaopic.jpg") no-repeat center;
+    width: 100%;
+    height: 4.2rem;
+    background-size: auto 4.2rem;
+    position: relative;
+}
+.don .pic .lab2{
+    background: url("../img/toupiao.png") no-repeat center;
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.4rem;
+    background-size: contain;
+}
+
+.don .pic3{
+    background: url("../img/woshuopic.jpg") no-repeat center;
+    width: 100%;
+    height: 4.2rem;
+    background-size: auto 4.2rem;
+    position: relative;
+}
+.don .pic .lab3{
+    background: url("../img/woshuo.png") no-repeat center;
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.4rem;
+    background-size: contain;
+}
